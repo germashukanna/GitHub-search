@@ -2,3 +2,19 @@
     font-weight: bold;
     color: slategray;
 }
+
+.containerGitHub{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 150px 150px;
+}
+
+.containerUserDetails img {
+    width: 200px;
+    height: 200px;
+}
+
+.containerUserDetails{
+    margin: auto 100px;
+}

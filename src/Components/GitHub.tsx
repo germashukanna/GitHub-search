@@ -126,7 +126,7 @@ export const UserDetails: React.FC<UserDetailsPropsType> = ({user}) => {
     }, [seconds])
 
     return (
-        <div>
+        <div className={s.containerUserDetails}>
             {userDetails && <div>
                 <Timer seconds={seconds} onChange={setSeconds} timerKey={userDetails.id.toString()}/>
                 <h2>Username</h2>
@@ -150,7 +150,7 @@ export const GitHub = () => {
     }, [selectedUser])
 
     return (
-        <div>
+        <div className={s.containerGitHub}>
             <div>
                 <Search value={searchTerm} onSubmit={(value: string) => {
                     setSearchTerm(value)
